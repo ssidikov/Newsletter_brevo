@@ -25,7 +25,6 @@
             margin: 0;
             padding: 0;
             font-family: Arial, Helvetica, sans-serif;
-            background-color: #EBFFBB;
         }
 
         table {
@@ -97,6 +96,7 @@
         .header-logo-wrapper {
             text-align: center;
             position: relative;
+            padding-top: 10px;
         }
 
         .logo-main {
@@ -144,14 +144,50 @@
             margin-bottom: 20px;
         }
 
+        .edito-image {
+            width: 100%;
+            border-radius: 20px;
+        }
+
+        .edito-svg {
+            display: block;
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+            overflow: visible;
+        }
+
         .edito-title {
             font-size: 48px;
             font-weight: 900;
             color: #333;
             text-align: center;
-            margin: 10px 0 0 0;
+            margin: 0;
             padding: 0;
             font-family: Arial Black, Arial, sans-serif;
+            transform: rotate(-6deg);
+        }
+
+        .edito-underline {
+            display: block;
+            margin: 8px auto 0;
+            width: 160px;
+            height: auto;
+        }
+
+        .edito-line-left {
+            height: 2px;
+            background: #333;
+            width: 90%;
+            margin-left: 10%;
+        }
+
+        .edito-line-right {
+            height: 2px;
+            background: #333;
+            width: 90%;
+            margin-right: 10%;
+            float: right;
         }
 
         .edito-text {
@@ -170,12 +206,59 @@
 
         .news-bg {
             display: block;
-            margin: 0 auto;
-            width: 100%;
-            max-width: 600px;
+            width: 140%;
+            max-width: none;
+            margin-left: -24%;
             height: auto;
             transform: rotate(180deg);
             overflow: hidden;
+        }
+
+        .news-items {
+            background-color: #6C3FE5;
+            padding: 20px;
+            margin-bottom: -7px;
+        }
+
+        .news-section--compact {
+            padding: 0 !important;
+        }
+
+        .section-title--news {
+            padding-top: 30px;
+        }
+
+        /* Decorative wrappers: hide overflow so SVG can extend beyond container without causing scroll */
+        .news-deco-top,
+        .news-deco-bottom {
+            text-align: center;
+            line-height: 0;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .cta-container {
+            text-align: center;
+            margin: 12px 0;
+        }
+
+        .cta-link {
+            color: #111;
+            font-weight: bold;
+            text-decoration: none;
+            display: block;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-credit {
+            margin: 5px 0;
         }
 
         .section-title {
@@ -186,15 +269,9 @@
             text-align: center;
         }
 
-        .news-items {
-            background-color: #6C3FE5;
-            /* border-radius: 20px; */
-            padding: 20px;
-        }
-
         .news-items-bg {
             z-index: 1;
-            margin-top: -42px;
+            margin-top: -80px;
             position: relative;
         }
 
@@ -205,7 +282,7 @@
 
         .news-image {
             width: 100%;
-            border-radius: 15px;
+            border-radius: 14px;
             margin-bottom: 10px;
         }
 
@@ -234,6 +311,33 @@
             display: inline-flex;
             align-items: center;
             gap: 10px;
+        }
+
+        .cta-pill {
+            display: inline-table;
+            border: 2px solid #333;
+            border-radius: 30px;
+            overflow: hidden;
+            border-collapse: separate;
+        }
+
+        .cta-text-cell {
+            background: #ffffff;
+            padding: 12px 20px;
+            vertical-align: middle;
+        }
+
+        .cta-icon-cell {
+            background: white;
+            padding: 8px 10px;
+            vertical-align: middle;
+        }
+
+        .cta-icon {
+            display: block;
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
         }
 
         /* Icons section */
@@ -395,25 +499,21 @@
                         <td class="header">
                             <table width="100%" cellpadding="0" cellspacing="0">
                                 <tr>
-                                    <td class="header-top"
-                                        style="display: flex; justify-content: space-between; align-items: center; padding: 0 10px;">
+                                    <td class="header-top">
                                         <div class="header-date">NOVEMBRE 2025</div>
                                         <div class="header-links">
-                                            <a href="#" style="color: #333; text-decoration: underline;">VISUALISER SUR
-                                                LE WEB</a> |
-                                            <a href="#" style="color: #333; text-decoration: underline;">S'ABONNER</a>
+                                            <a href="#">VISUALISER SUR LE WEB</a> |
+                                            <a href="#">S'ABONNER</a>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="header-logo-wrapper" style="text-align: center; padding-top: 10px;">
-                                        <div class="logo-main"
-                                            style="background-color: #fff; border: 3px solid #333; border-radius: 80px; padding: 25px 80px; display: inline-block; position: relative; margin: 20px 0;">
+                                    <td class="header-logo-wrapper">
+                                        <div class="logo-main">
                                             <div class="logo-badge">
                                                 C'EST LA NEWSLETTER
                                             </div>
-                                            <h1 class="logo-text"
-                                                style="font-size: 64px; font-weight: 900; color: #333; margin: 0; line-height: 1; font-family: Arial Black, Arial, sans-serif;">
+                                            <h1 class="logo-text">
                                                 com'art</h1>
                                         </div>
                                     </td>
@@ -426,23 +526,44 @@
                     <tr>
                         <td class="edito-section">
                             <div class="edito-image-container">
-                                <img src="images/hero.png" alt="Photo Edito" style="width: 100%; border-radius: 20px;">
+                                <!-- SVG mask: image is shown only through three rounded shapes -->
+                                <svg class="edito-svg" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg"
+                                    role="img" aria-label="Photo Edito">
+                                    <defs>
+                                        <mask id="editomask" maskUnits="userSpaceOnUse">
+                                            <!-- black = hide, white = show -->
+                                            <rect x="0" y="0" width="600" height="600" fill="black" />
+                                            <!-- top pill -->
+                                            <rect x="20" y="20" width="560" height="180" rx="65" ry="65" fill="white" />
+                                            <!-- middle right rounded block -->
+                                            <rect x="140" y="198" width="560" height="180" rx="65" ry="65"
+                                                fill="white" />
+                                            <!-- bottom pill -->
+                                            <rect x="20" y="360" width="560" height="180" rx="65" ry="65"
+                                                fill="white" />
+                                        </mask>
+                                    </defs>
+                                    <!-- image fills the full SVG area and is masked -->
+                                    <image href="images/hero.png" x="0" y="0" width="600" height="600"
+                                        preserveAspectRatio="xMidYMid slice" mask="url(#editomask)" />
+                                </svg>
+                                <!-- fallback (visible if SVG not supported) -->
+                                <img src="images/hero.png" alt="Photo Edito" class="edito-image" style="display:none;">
                             </div>
                             <!-- EDITO TITLE: two horizontal rules left/right + centered title + purple brush underline -->
                             <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
                                 <tr>
-                                    <td width="22%" valign="middle" style="vertical-align:middle;">
-                                        <div style="height:2px;background:#333;width:90%;margin-left:10%;"></div>
+                                    <td width="30%" valign="middle">
+                                        <div class="edito-line-left"></div>
                                     </td>
-                                    <td width="56%" align="center" valign="middle" style="padding:0 10px;">
-                                        <h2 class="edito-title" style="margin:0;">Edito</h2>
+                                    <td width="40%" align="center" valign="middle" class="edito-center-cell">
+                                        <h2 class="edito-title">Edito</h2>
                                         <!-- Purple brush underline as inline SVG data URL, small and centered -->
                                         <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='260' height='24' viewBox='0 0 260 24'><path d='M6 14 C46 2,86 2,130 14 C174 26,214 26,254 14' stroke='%236C3FE5' stroke-width='6' stroke-linecap='round' fill='none'/></svg>"
-                                            alt="" style="display:block;margin:8px auto 0;width:160px;height:auto;">
+                                            alt="" class="edito-underline">
                                     </td>
-                                    <td width="22%" valign="middle" style="vertical-align:middle;">
-                                        <div style="height:2px;background:#333;width:90%;margin-right:10%;float:right;">
-                                        </div>
+                                    <td width="30%" valign="middle">
+                                        <div class="edito-line-right"></div>
                                     </td>
                                 </tr>
                             </table>
@@ -466,25 +587,22 @@
 
                     <!-- News Section -->
                     <tr>
-                        <td class="news-section" style="padding:0;">
-                            <h2 class="section-title" style="padding-top:30px;">Les nouveautés</h2>
+                        <td class="news-section news-section--compact">
+                            <h2 class="section-title section-title--news">Les nouveautés</h2>
 
                             <!-- Decorative purple semicircles (top) -->
-                            <div style="text-align:center;line-height:0;margin-top:10px;">
-                                <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='90' viewBox='0 0 600 90'><circle cx='90' cy='0' r='90' fill='%236C3FE5'/><circle cx='300' cy='0' r='90' fill='%236C3FE5'/><circle cx='510' cy='0' r='90' fill='%236C3FE5'/></svg>"
+                            <div class="news-deco-top">
+                                <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='90' viewBox='0 0 600 90'><circle cx='90' cy='0' r='90' fill='%236C3FE5'/><circle cx='270' cy='0' r='90' fill='%236C3FE5'/><circle cx='450' cy='0' r='90' fill='%236C3FE5'/></svg>"
                                     alt="" class='news-bg'>
                             </div>
-
-
 
                             <div class="news-items">
                                 <table width="100%" cellpadding="0" cellspacing="0" role="presentation"
                                     class='news-items-bg'>
                                     <tr>
                                         <td width="48%" valign="top" class="news-item">
-                                            <img src="images/burger.png" alt="Burger" class="news-image"
-                                                style="border-radius:14px;">
-                                            <p class="news-text" style="color:#ffffff;">
+                                            <img src="images/burger.jpg" alt="Burger" class="news-image">
+                                            <p class="news-text">
                                                 Lorem ipsum ullamcorper fringilla augue
                                                 turpis quam egestas enim mauris leo
                                                 habitasse dignissim tincidunt tellus quis
@@ -497,10 +615,9 @@
                                             </p>
                                         </td>
                                         <td width="4%"></td>
-                                        <td width="48%" valign="top" class="news-item" style="padding-left:12px;">
-                                            <img src="images/picture-1.png" alt="Portrait" class="news-image"
-                                                style="border-radius:14px;">
-                                            <p class="news-text" style="color:#ffffff;">
+                                        <td width="48%" valign="top" class="news-item news-item--pad-left">
+                                            <img src="images/picture-2.jpg" alt="Portrait" class="news-image">
+                                            <p class="news-text">
                                                 Lorem ipsum ullamcorper fringilla augue
                                                 turpis quam egestas enim mauris leo
                                                 habitasse dignissim tincidunt tellus quis
@@ -514,31 +631,25 @@
                                         </td>
                                     </tr>
                                 </table>
-
-
-
                             </div>
 
                             <!-- Decorative purple semicircles (bottom) -->
-                            <div style="text-align:center;line-height:0;margin-top:-10px;margin-bottom:30px;">
-                                <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='90' viewBox='0 0 600 90'><circle cx='90' cy='90' r='90' fill='%236C3FE5'/><circle cx='300' cy='90' r='90' fill='%236C3FE5'/><circle cx='510' cy='90' r='90' fill='%236C3FE5'/></svg>"
+                            <div class="news-deco-bottom">
+                                <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='90' viewBox='0 0 600 90'><circle cx='90' cy='90' r='90' fill='%236C3FE5'/><circle cx='270' cy='90' r='90' fill='%236C3FE5'/><circle cx='450' cy='90' r='90' fill='%236C3FE5'/></svg>"
                                     alt="" class='news-bg'>
                             </div>
 
                             <!-- CTA: single outer pill with inner text and circular icon inside the right end -->
-                            <div style="text-align:center;margin:12px 0;">
-                                <table cellpadding="0" cellspacing="0" role="presentation"
-                                    style="display:inline-table;border:2px solid #333;border-radius:30px;overflow:hidden;border-collapse:separate;">
+                            <div class="cta-container">
+                                <table class="cta-pill" cellpadding="0" cellspacing="0" role="presentation">
                                     <tr>
-                                        <td style="background:#ffffff;padding:12px 20px;vertical-align:middle;">
-                                            <a href="#"
-                                                style="color:#111;font-weight:bold;text-decoration:none;display:block;">VISITER
-                                                NOTRE COMPTE INSTA</a>
+                                        <td class="cta-text-cell">
+                                            <a href="#" class="cta-link">VISITER NOTRE COMPTE INSTA</a>
                                         </td>
-                                        <td style="background:white;padding:8px 10px;vertical-align:middle;">
+                                        <td class="cta-icon-cell">
                                             <!-- circular icon (SVG) placed inside the pill's right end -->
                                             <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 36 36'><circle cx='18' cy='18' r='16' fill='%236C3FE5'/><path d='M13 18 L21 18' stroke='%23fff' stroke-width='2' stroke-linecap='round'/><path d='M18 14 L22 18 L18 22' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' fill='none'/></svg>"
-                                                alt="" width="36" height="36" style="display:block;border-radius:50%;">
+                                                alt="" width="36" height="36" class="cta-icon">
                                         </td>
                                     </tr>
                                 </table>
@@ -568,7 +679,7 @@
                     <tr>
                         <td class="article-section">
                             <h2 class="section-title">Quoi d'autres ?</h2>
-                            <img src="/images//Quoi d’autres.png" alt="Article" class="article-image">
+                            <img src="/images/picture-2.jpg" alt="Article" class="article-image">
                             <div class="article-text">
                                 <p>
                                     Hipster ipsum wayfarers toast williamsburg neutra hashtag woke disrupt level franzen
@@ -610,7 +721,7 @@
                     <!-- Final Article -->
                     <tr>
                         <td class="final-article">
-                            <img src="/images/Un gros titre.png" alt="Final Article" class="final-image">
+                            <img src="/images/picture-2.jpg" alt="Final Article" class="final-image">
                         </td>
                     </tr>
 
@@ -627,15 +738,14 @@
                             <p>Inscrivez-vous à notre newsletter ici. Vous pouvez vous désabonner ici. Cette newsletter
                                 est préparée par....
                             </p>
-                            <div
-                                style="text-align:center;margin-top:10px; display: flex; justify-content: space-between; align-items: center;">
-                                <p style="margin: 5px 0;">Crédits photos - ©</p>
+                            <div class="footer-bottom">
+                                <p class="footer-credit">Crédits photos - ©</p>
                                 <div class="social-icons">
                                     <a href="#" class="social-link">
                                         <img src="images/instagram.png" alt="Instagram" width="30" height="30">
                                     </a>
                                     <a href="#" class="social-link">
-                                        <img src="images/facebook.png" alt="Facebook" width="30" height="30">
+                                        <img src="images/facebook.jpg" alt="Facebook" width="30" height="30">
                                     </a>
                                 </div>
                             </div>
