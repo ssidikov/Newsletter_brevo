@@ -10,8 +10,8 @@
     ============================================
     Pour modifier les couleurs, recherchez et remplacez dans tout le document :
     
-    - Fond vert pastel : #EBFFBB
-    - Violet (accent) : #6C3FE5
+    - Fond vert pastel : #e6f7be
+    - Violet (accent) : #612ffe
     - Blanc : #fff ou #ffffff
     - Noir/Texte : #333
     - Fond gris : #f4f4f4
@@ -47,19 +47,19 @@
         /* Main container */
         .wrapper {
             width: 100%;
-            background-color: #EBFFBB;
+            background-color: #e6f7be;
             padding: 20px 0;
         }
 
         .container {
             max-width: 600px;
             margin: 0 auto;
-            background-color: #EBFFBB;
+            background-color: #e6f7be;
         }
 
         /* Header */
         .header {
-            background-color: #EBFFBB;
+            background-color: #e6f7be;
             padding: 20px;
         }
 
@@ -72,12 +72,12 @@
         }
 
         .header-date {
-            font-size: 11px;
+            font-size: 14px;
             color: #333;
-            font-weight: normal;
+            font-weight: 500;
             border: 2px solid #333;
             border-radius: 20px;
-            padding: 5px 10px;
+            padding: 6px 12px;
             display: inline-block;
         }
 
@@ -100,10 +100,10 @@
         }
 
         .logo-main {
-            background-color: #fff;
+            background-color: #faf8fd;
             border: 3px solid #333;
             border-radius: 80px;
-            padding: 25px 80px;
+            padding: 18px 47px 29px 49px;
             display: inline-block;
             position: relative;
             margin: 20px 0;
@@ -111,13 +111,13 @@
 
         .logo-badge {
             position: absolute;
-            top: -18px;
-            left: 25%;
-            transform: translateX(-50%) rotate(-6deg);
-            background-color: #6C3FE5;
+            top: -15px;
+            left: 32%;
+            transform: translateX(-50%) rotate(-4deg);
+            background-color: #612ffe;
             color: #fff;
             font-size: 9px;
-            font-weight: bold;
+            font-weight: 500;
             padding: 8px;
             border-radius: 20px;
             white-space: nowrap;
@@ -135,7 +135,7 @@
 
         /* Edito section */
         .edito-section {
-            background-color: #EBFFBB;
+            background-color: #e6f7be;
             padding: 20px;
         }
 
@@ -200,7 +200,7 @@
 
         /* News section */
         .news-section {
-            background-color: #EBFFBB;
+            background-color: #e6f7be;
             padding: 20px;
         }
 
@@ -215,7 +215,7 @@
         }
 
         .news-items {
-            background-color: #6C3FE5;
+            background-color: #612ffe;
             padding: 20px;
             margin-bottom: -7px;
         }
@@ -282,8 +282,10 @@
 
         .news-image {
             width: 100%;
+            height: 220px;
             border-radius: 14px;
             margin-bottom: 10px;
+            object-fit: cover;
         }
 
         .news-text {
@@ -300,8 +302,8 @@
         }
 
         .cta-button {
-            background-color: #EBFFBB;
-            color: #6C3FE5;
+            background-color: #e6f7be;
+            color: #612ffe;
             border: 2px solid #333;
             border-radius: 30px;
             padding: 12px 30px;
@@ -322,13 +324,13 @@
         }
 
         .cta-text-cell {
-            background: #ffffff;
+            background: #faf8fd;
             padding: 12px 20px;
             vertical-align: middle;
         }
 
         .cta-icon-cell {
-            background: white;
+            background: #faf8fd;
             padding: 8px 10px;
             vertical-align: middle;
         }
@@ -346,7 +348,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background-color: #EBFFBB;
+            background-color: #e6f7be;
             text-align: center;
             padding: 20px;
         }
@@ -359,14 +361,14 @@
         .icon-circle {
             width: 40px;
             height: 40px;
-            background-color: #6C3FE5;
+            background-color: #612ffe;
             border-radius: 50%;
             display: inline-block;
         }
 
         /* Article section */
         .article-section {
-            background-color: #EBFFBB;
+            background-color: #e6f7be;
             padding: 20px;
         }
 
@@ -388,7 +390,7 @@
 
         /* Big title section */
         .big-title-section {
-            background-color: #EBFFBB;
+            background-color: #e6f7be;
             padding: 40px 20px;
         }
 
@@ -402,7 +404,7 @@
 
         /* Final article */
         .final-article {
-            background-color: #EBFFBB;
+            background-color: #e6f7be;
             padding: 20px;
         }
 
@@ -414,7 +416,7 @@
 
         /* Footer */
         .footer-logo {
-            background-color: #EBFFBB;
+            background-color: #e6f7be;
             text-align: center;
             padding: 40px 20px;
         }
@@ -422,14 +424,14 @@
         .footer-logo-text {
             font-size: 80px;
             font-weight: bold;
-            color: #EBFFBB;
+            color: #e6f7be;
             -webkit-text-stroke: 2px #333;
             text-stroke: 2px #333;
             letter-spacing: -5px;
         }
 
         .footer {
-            background-color: #EBFFBB;
+            background-color: #e6f7be;
             padding: 20px;
             text-align: center;
             font-size: 11px;
@@ -530,25 +532,20 @@
                                 <svg class="edito-svg" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg"
                                     role="img" aria-label="Photo Edito">
                                     <defs>
-                                        <mask id="editomask" maskUnits="userSpaceOnUse">
-                                            <!-- black = hide, white = show -->
-                                            <rect x="0" y="0" width="600" height="600" fill="black" />
+                                        <!-- Use clipPath instead of mask so there is no visible background rectangle color -->
+                                        <clipPath id="editoclip" clipPathUnits="userSpaceOnUse">
                                             <!-- top pill -->
-                                            <rect x="20" y="20" width="560" height="180" rx="65" ry="65" fill="white" />
+                                            <rect x="20" y="20" width="440" height="200" rx="100" ry="100" />
                                             <!-- middle right rounded block -->
-                                            <rect x="140" y="198" width="560" height="180" rx="65" ry="65"
-                                                fill="white" />
+                                            <rect x="120" y="212" width="440" height="200" rx="100" ry="100" />
                                             <!-- bottom pill -->
-                                            <rect x="20" y="360" width="560" height="180" rx="65" ry="65"
-                                                fill="white" />
-                                        </mask>
+                                            <rect x="20" y="410" width="440" height="200" rx="100" ry="100" />
+                                        </clipPath>
                                     </defs>
-                                    <!-- image fills the full SVG area and is masked -->
-                                    <image href="images/hero.png" x="0" y="0" width="600" height="600"
-                                        preserveAspectRatio="xMidYMid slice" mask="url(#editomask)" />
+                                    <!-- image fills the full SVG area and is clipped -->
+                                    <image href="images/picture-1.jpg" x="0" y="0" width="600" height="600"
+                                        preserveAspectRatio="xMidYMid slice" clip-path="url(#editoclip)" />
                                 </svg>
-                                <!-- fallback (visible if SVG not supported) -->
-                                <img src="images/hero.png" alt="Photo Edito" class="edito-image" style="display:none;">
                             </div>
                             <!-- EDITO TITLE: two horizontal rules left/right + centered title + purple brush underline -->
                             <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
@@ -559,7 +556,7 @@
                                     <td width="40%" align="center" valign="middle" class="edito-center-cell">
                                         <h2 class="edito-title">Edito</h2>
                                         <!-- Purple brush underline as inline SVG data URL, small and centered -->
-                                        <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='260' height='24' viewBox='0 0 260 24'><path d='M6 14 C46 2,86 2,130 14 C174 26,214 26,254 14' stroke='%236C3FE5' stroke-width='6' stroke-linecap='round' fill='none'/></svg>"
+                                        <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='260' height='24' viewBox='0 0 260 24'><path d='M6 14 C46 2,86 2,130 14 C174 26,214 26,254 14' stroke='%23612ffe' stroke-width='6' stroke-linecap='round' fill='none'/></svg>"
                                             alt="" class="edito-underline">
                                     </td>
                                     <td width="30%" valign="middle">
@@ -592,7 +589,7 @@
 
                             <!-- Decorative purple semicircles (top) -->
                             <div class="news-deco-top">
-                                <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='90' viewBox='0 0 600 90'><circle cx='90' cy='0' r='90' fill='%236C3FE5'/><circle cx='270' cy='0' r='90' fill='%236C3FE5'/><circle cx='450' cy='0' r='90' fill='%236C3FE5'/></svg>"
+                                <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='90' viewBox='0 0 600 90'><circle cx='90' cy='0' r='90' fill='%23612ffe'/><circle cx='270' cy='0' r='90' fill='%23612ffe'/><circle cx='450' cy='0' r='90' fill='%23612ffe'/></svg>"
                                     alt="" class='news-bg'>
                             </div>
 
@@ -635,7 +632,7 @@
 
                             <!-- Decorative purple semicircles (bottom) -->
                             <div class="news-deco-bottom">
-                                <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='90' viewBox='0 0 600 90'><circle cx='90' cy='90' r='90' fill='%236C3FE5'/><circle cx='270' cy='90' r='90' fill='%236C3FE5'/><circle cx='450' cy='90' r='90' fill='%236C3FE5'/></svg>"
+                                <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='90' viewBox='0 0 600 90'><circle cx='90' cy='90' r='90' fill='%23612ffe'/><circle cx='270' cy='90' r='90' fill='%23612ffe'/><circle cx='450' cy='90' r='90' fill='%23612ffe'/></svg>"
                                     alt="" class='news-bg'>
                             </div>
 
@@ -648,7 +645,7 @@
                                         </td>
                                         <td class="cta-icon-cell">
                                             <!-- circular icon (SVG) placed inside the pill's right end -->
-                                            <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 36 36'><circle cx='18' cy='18' r='16' fill='%236C3FE5'/><path d='M13 18 L21 18' stroke='%23fff' stroke-width='2' stroke-linecap='round'/><path d='M18 14 L22 18 L18 22' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' fill='none'/></svg>"
+                                            <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 36 36'><circle cx='18' cy='18' r='16' fill='%23612ffe'/><path d='M13 18 L21 18' stroke='%23fff' stroke-width='2' stroke-linecap='round'/><path d='M18 14 L22 18 L18 22' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' fill='none'/></svg>"
                                                 alt="" width="36" height="36" class="cta-icon">
                                         </td>
                                     </tr>
