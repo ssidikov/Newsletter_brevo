@@ -101,7 +101,7 @@
 
         .logo-main {
             background-color: #faf8fd;
-            border: 3px solid #333;
+            border: 2px solid #333;
             border-radius: 80px;
             padding: 18px 47px 29px 49px;
             display: inline-block;
@@ -116,21 +116,30 @@
             transform: translateX(-50%) rotate(-4deg);
             background-color: #612ffe;
             color: #fff;
-            font-size: 9px;
+            font-size: 11px;
             font-weight: 500;
-            padding: 8px;
+            padding: 10px;
             border-radius: 20px;
             white-space: nowrap;
             letter-spacing: 0.5px;
         }
 
         .logo-text {
-            font-size: 64px;
+            font-size: 72px;
             font-weight: 900;
             color: #333;
             margin: 0;
             line-height: 1;
-            font-family: Arial Black, Arial, sans-serif;
+            /* Prefer Futura PT; fall back to other Futuras and system sans-serifs */
+            font-family: "Futura PT", Futura, "Trebuchet MS", Arial, sans-serif;
+        }
+
+        /* Image logo (PNG) - used when a raster logo is provided */
+        .logo-image {
+            display: block;
+            max-width: 290px;
+            height: auto;
+            margin: 0 auto;
         }
 
         /* Edito section */
@@ -170,8 +179,7 @@
 
         .edito-underline {
             display: block;
-            margin: 8px auto 0;
-            width: 160px;
+            width: 128px;
             height: auto;
         }
 
@@ -190,12 +198,16 @@
             float: right;
         }
 
+        .edito-text-container {
+            padding: 35px 0 0;
+        }
+
         .edito-text {
-            font-size: 14px;
-            line-height: 1.6;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 1.5;
             color: #333;
             text-align: left;
-            padding: 0 10px;
         }
 
         /* News section */
@@ -515,8 +527,7 @@
                                             <div class="logo-badge">
                                                 C'EST LA NEWSLETTER
                                             </div>
-                                            <h1 class="logo-text">
-                                                com'art</h1>
+                                            <img src="images/logo.png" alt="com'art" class="logo-image" />
                                         </div>
                                     </td>
                                 </tr>
@@ -535,11 +546,11 @@
                                         <!-- Use clipPath instead of mask so there is no visible background rectangle color -->
                                         <clipPath id="editoclip" clipPathUnits="userSpaceOnUse">
                                             <!-- top pill -->
-                                            <rect x="20" y="20" width="440" height="200" rx="100" ry="100" />
+                                            <rect x="20" y="20" width="480" height="200" rx="100" ry="100" />
                                             <!-- middle right rounded block -->
-                                            <rect x="120" y="212" width="440" height="200" rx="100" ry="100" />
+                                            <rect x="110" y="219" width="480" height="200" rx="100" ry="100" />
                                             <!-- bottom pill -->
-                                            <rect x="20" y="410" width="440" height="200" rx="100" ry="100" />
+                                            <rect x="20" y="410" width="480" height="200" rx="100" ry="100" />
                                         </clipPath>
                                     </defs>
                                     <!-- image fills the full SVG area and is clipped -->
@@ -550,35 +561,36 @@
                             <!-- EDITO TITLE: two horizontal rules left/right + centered title + purple brush underline -->
                             <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
                                 <tr>
-                                    <td width="30%" valign="middle">
+                                    <td width="34%" valign="middle">
                                         <div class="edito-line-left"></div>
                                     </td>
-                                    <td width="40%" align="center" valign="middle" class="edito-center-cell">
+                                    <td width="33%" align="center" valign="middle" class="edito-center-cell">
                                         <h2 class="edito-title">Edito</h2>
                                         <!-- Purple brush underline as inline SVG data URL, small and centered -->
-                                        <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='260' height='24' viewBox='0 0 260 24'><path d='M6 14 C46 2,86 2,130 14 C174 26,214 26,254 14' stroke='%23612ffe' stroke-width='6' stroke-linecap='round' fill='none'/></svg>"
-                                            alt="" class="edito-underline">
+                                        <img src="images/underline.svg" alt="" class="edito-underline">
                                     </td>
-                                    <td width="30%" valign="middle">
+                                    <td width="33%" valign="middle">
                                         <div class="edito-line-right"></div>
                                     </td>
                                 </tr>
                             </table>
-                            <p class="edito-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim id est laborum.
-                            </p>
-                            <p class="edito-text">
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                                architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-                                sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                                voluptatem sequi nesciunt.
-                            </p>
+                            <div class="edito-text-container">
+                                <p class="edito-text">
+                                    Lorem ipsum amet ac velit viverra facilisi malesuada tincidunt nascetur consequat
+                                    vulputate at fermentum urna sollicitudin et elementum amet sapien ultrices
+                                    vestibulum lorem lacus diam arcu iaculis duis cras viverra ullamcorper turpis
+                                    faucibus mattis viverra eu massa amet pellentesque
+                                    suspendisse et eget odio semper posuere convallis urna tortor mauris dictumst eu
+                                    morbi at sed vestibulum arcu augue odio risus nibh dictumamet fusce porttitor vitae
+                                    rutrum id dolor bibendum nisi volutpat tortor massa sed et cras eget amet nullam
+                                    risus tincidunt nisl tortor lectus in sit
+                                    facilisis tempus urna quisque enim dolor mauris enim leo quis varius risus lorem id
+                                    vitae quam sed nisl duis nam nibh euismod id aliquam eget congue a et viverra
+                                    consectetur a ut pretium sodales quis amet sit dolor congue sit mauris hendrerit
+                                    ante consectetur mauris est nullam non vitae euismod elementum feugiat commodo dolor
+                                    posuere odio adipiscing montes et ac et suspendisse dictum dolor.
+                                </p>
+                            </div>
                         </td>
                     </tr>
 
