@@ -21,7 +21,9 @@
     -->
     <style>
         /* Reset styles */
-        @import url('https://fonts.cdnfonts.com/css/futura-std-4');
+        /* @import url('https://fonts.cdnfonts.com/css/futura-pt'); */
+        /* @import url('https://fonts.cdnfonts.com/css/futura-std-4'); */
+        @import url('https://cdn.jsdelivr.net/npm/fonts-archive-futura-std/FuturaStd.css');
 
         body {
             margin: 0;
@@ -42,6 +44,7 @@
         }
 
         p {
+            font-family: Arial, Helvetica, sans-serif;
             margin: 0 0 15px 0;
             padding: 0;
         }
@@ -80,31 +83,31 @@
         }
 
         .header-date {
-            font-size: 14px;
+            font-size: 12px;
             color: #333;
             font-weight: 500;
             border: 2px solid #333;
             border-radius: 20px;
-            padding: 6px 12px;
+            padding: 6px 16px;
             display: inline-block;
         }
 
         .header-links {
-            font-size: 11px;
-            color: #333;
+            font-size: 12px;
+            font-weight: 500;
             text-align: right;
+            letter-spacing: 0.5px;
         }
 
         .header-links a {
-            color: #333;
             text-decoration: underline;
-            margin: 0 5px;
+            color: #333;
         }
 
         .header-logo-wrapper {
             text-align: center;
             position: relative;
-            padding-top: 10px;
+            padding-top: 40px;
         }
 
         .logo-main {
@@ -119,23 +122,22 @@
 
         .logo-badge {
             position: absolute;
-            top: -15px;
-            left: 32%;
+            top: -18px;
+            left: 31%;
             transform: translateX(-50%) rotate(-4deg);
             background-color: #612ffe;
             color: #fff;
-            font-size: 11px;
-            font-weight: 500;
+            font-size: 12px;
             padding: 10px;
             border-radius: 20px;
             white-space: nowrap;
-            letter-spacing: 0.5px;
+            letter-spacing: 1.2px;
         }
 
         .logo-text {
             font-size: 72px;
             font-weight: 900;
-            color: #333;
+
             margin: 0;
             line-height: 1;
         }
@@ -156,7 +158,7 @@
 
         .edito-image-container {
             position: relative;
-            margin-bottom: 20px;
+            margin: 0 30px 40px 30px;
         }
 
         /* clip any parts of the Edito image/SVG that extend beyond its rounded frame */
@@ -173,14 +175,12 @@
             display: block;
             width: 100%;
             height: auto;
-            border-radius: 20px;
             overflow: visible;
         }
 
         .edito-title {
-            font-size: 48px;
-            font-weight: 900;
-            color: #333;
+            font-size: 56px;
+            font-weight: 700;
             text-align: center;
             margin: 0;
             padding: 0;
@@ -191,6 +191,7 @@
             display: block;
             width: 128px;
             height: auto;
+            margin-top: -6px;
         }
 
         .edito-line-left {
@@ -215,9 +216,9 @@
         .edito-text {
             font-size: 16px;
             font-weight: 600;
-            line-height: 1.5;
-            color: #333;
+            line-height: 1.4;
             text-align: left;
+            color: #333;
         }
 
         /* News section */
@@ -238,7 +239,7 @@
 
         .news-items {
             background-color: #612ffe;
-            padding: 24px 32px;
+            padding: 24px 32px 0;
             margin: -1px 0 -7px 0;
         }
 
@@ -265,10 +266,16 @@
         }
 
         .cta-link {
-            color: #111;
-            font-weight: 800;
+            font-size: 18px;
+            color: #000;
+            font-weight: 700;
             text-decoration: none;
             display: block;
+        }
+
+        .cta-icon {
+            background-color: #612ffe;
+            padding: 4px
         }
 
         .footer-bottom {
@@ -280,7 +287,8 @@
         }
 
         .footer-text {
-            font-size: 14px;
+            font-size: 12px;
+            font-weight: 600;
             text-align: left;
         }
 
@@ -290,9 +298,8 @@
 
         .section-title {
             font-size: 48px;
-            font-weight: 900;
-            color: #333;
-            margin: 30px 0 20px 0;
+            font-weight: 700;
+            margin: 48px 0;
             text-align: center;
         }
 
@@ -309,7 +316,7 @@
 
         .news-image {
             width: 100%;
-            height: 224px;
+            height: 238px;
             border-radius: 14px;
             margin-bottom: 40px;
             object-fit: cover;
@@ -352,7 +359,7 @@
 
         .cta-text-cell {
             background: #faf8fd;
-            padding: 12px 20px;
+            padding: 12px;
             vertical-align: middle;
         }
 
@@ -365,8 +372,8 @@
         .cta-icon {
             display: block;
             border-radius: 50%;
-            width: 36px;
-            height: 36px;
+            width: 28px;
+            height: 28px;
         }
 
         /* Icons section */
@@ -401,7 +408,7 @@
 
         .article-image {
             width: 100%;
-            height: 260px;
+            height: 270px;
             object-fit: cover;
             border-radius: 20px;
             margin: 20px 0;
@@ -411,7 +418,7 @@
             font-size: 13px;
             font-weight: 600;
             line-height: 1.25;
-            color: #333;
+            color: #4e4e4e;
             text-align: left;
             column-count: 2;
             column-gap: 15px;
@@ -421,13 +428,13 @@
         /* Big title section */
         .big-title-section {
             background-color: #e6f7be;
-            padding: 40px 20px;
+            padding: 10px 20px 0px;
         }
 
         .big-title {
             font-size: 48px;
             font-weight: bold;
-            color: #333;
+
             text-align: center;
             margin: 20px 0;
         }
@@ -435,7 +442,7 @@
         /* Final article */
         .final-article {
             background-color: #e6f7be;
-            padding: 20px;
+            padding: 0 20px;
         }
 
         .final-image {
@@ -443,14 +450,13 @@
             height: 536px;
             object-fit: cover;
             border-radius: 20px;
-            margin: 20px 0;
         }
 
         /* Footer */
         .footer-logo {
             background-color: #e6f7be;
             text-align: center;
-            padding: 40px 20px;
+            padding: 155px 20px 40px;
         }
 
         .footer-logo-text {
@@ -479,7 +485,7 @@
             padding: 20px;
             text-align: center;
             font-size: 11px;
-            color: #333;
+
             /* hide overflow so the footer logo can bleed outside the viewport without creating horizontal scroll */
             overflow: hidden;
             position: relative;
@@ -487,8 +493,8 @@
 
         /* Thin separator above footer content */
         .footer-sep {
-            height: 1px;
-            background: #333;
+            height: 2px;
+            background: #717171;
             width: 100%;
             display: block;
             margin: 0 0 12px 0;
@@ -587,7 +593,7 @@
                                             <div class="logo-badge">
                                                 C'EST LA NEWSLETTER
                                             </div>
-                                            <img src="images/logo.png" alt="com'art" class="logo-image" />
+                                            <img src="images/logo.svg" alt="com'art" class="logo-image" />
                                         </div>
                                     </td>
                                 </tr>
@@ -600,7 +606,7 @@
                         <td class="edito-section">
                             <div class="edito-image-container">
                                 <!-- SVG mask: image is shown only through three rounded shapes -->
-                                <svg class="edito-svg" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg"
+                                <svg class="edito-svg" viewBox="0 0 600 620" xmlns="http://www.w3.org/2000/svg"
                                     role="img" aria-label="Photo Edito">
                                     <defs>
                                         <!-- Use clipPath instead of mask so there is no visible background rectangle color -->
@@ -610,11 +616,11 @@
                                             <!-- middle right rounded block -->
                                             <rect x="110" y="219" width="480" height="200" rx="100" ry="100" />
                                             <!-- bottom pill -->
-                                            <rect x="20" y="410" width="480" height="200" rx="100" ry="100" />
+                                            <rect x="20" y="418" width="480" height="200" rx="100" ry="100" />
                                         </clipPath>
                                     </defs>
                                     <!-- image fills the full SVG area and is clipped -->
-                                    <image href="images/picture-1.jpg" x="0" y="0" width="600" height="600"
+                                    <image href="images/picture-1.jpg" x="0" y="0" width="100%" height="100%"
                                         preserveAspectRatio="xMidYMid slice" clip-path="url(#editoclip)" />
                                 </svg>
                             </div>
@@ -661,7 +667,7 @@
 
                             <!-- Decorative purple semicircles (top) -->
                             <div class="news-deco-top">
-                                <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='90' viewBox='0 0 600 90'><circle cx='90' cy='0' r='90' fill='%23612ffe'/><circle cx='270' cy='0' r='90' fill='%23612ffe'/><circle cx='450' cy='0' r='90' fill='%23612ffe'/></svg>"
+                                <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='80' viewBox='0 0 600 90'><circle cx='90' cy='0' r='90' fill='%23612ffe'/><circle cx='270' cy='0' r='90' fill='%23612ffe'/><circle cx='450' cy='0' r='90' fill='%23612ffe'/></svg>"
                                     alt="" class='news-bg'>
                             </div>
 
@@ -717,8 +723,8 @@
                                         </td>
                                         <td class="cta-icon-cell">
                                             <!-- circular icon (SVG) placed inside the pill's right end -->
-                                            <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 36 36'><circle cx='18' cy='18' r='16' fill='%23612ffe'/><path d='M13 18 L21 18' stroke='%23fff' stroke-width='2' stroke-linecap='round'/><path d='M18 14 L22 18 L18 22' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' fill='none'/></svg>"
-                                                alt="" width="36" height="36" class="cta-icon">
+                                            <img src="images//arrow-right.svg" alt="" width="36" height="36"
+                                                class="cta-icon">
                                         </td>
                                     </tr>
                                 </table>
@@ -812,7 +818,7 @@
                                 est préparée par....
                             </p>
                             <div class="footer-bottom">
-                                <p class="footer-credit">Crédits photos - ©</p>
+                                <p class="footer-credit">Crédits photos : ©</p>
                                 <div class="social-icons">
                                     <a href="#" class="social-link">
                                         <img src="images/instagram.jpg" alt="Instagram" width="30" height="30">
