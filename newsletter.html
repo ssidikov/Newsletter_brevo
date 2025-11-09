@@ -269,6 +269,11 @@
             align-items: center;
         }
 
+        .footer-text {
+            font-size: 14px;
+            text-align: left;
+        }
+
         .footer-credit {
             margin: 5px 0;
         }
@@ -463,6 +468,22 @@
             color: #333;
         }
 
+        /* Thin separator above footer content */
+        .footer-sep {
+            height: 1px;
+            background: #333;
+            width: 100%;
+            display: block;
+            margin: 0 0 12px 0;
+        }
+
+        /* Footer link styles: bold, underlined, dark color to match design */
+        .footer a {
+            color: #111;
+            font-weight: 700;
+            text-decoration: underline;
+        }
+
         .social-icons {
             margin: 10px 0;
         }
@@ -470,6 +491,15 @@
         .social-link {
             display: inline-block;
             margin: 0 5px;
+        }
+
+        /* Make footer social icons rounded/circular */
+        .social-link img {
+            display: block;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            object-fit: cover;
         }
 
         /* Responsive */
@@ -757,14 +787,18 @@
                     <!-- Footer -->
                     <tr>
                         <td class="footer">
-                            <p>Inscrivez-vous à notre newsletter ici. Vous pouvez vous désabonner ici. Cette newsletter
+                            <!-- thin black line above footer text -->
+                            <span class="footer-sep" aria-hidden="true"></span>
+                            <p class='footer-text'>
+                                <b>Inscrivez-vous à notre <a href="#">newsletter ici</a>.</b> Vous pouvez vous <a
+                                    href="#">désabonner ici</a>. Cette newsletter
                                 est préparée par....
                             </p>
                             <div class="footer-bottom">
                                 <p class="footer-credit">Crédits photos - ©</p>
                                 <div class="social-icons">
                                     <a href="#" class="social-link">
-                                        <img src="images/instagram.png" alt="Instagram" width="30" height="30">
+                                        <img src="images/instagram.jpg" alt="Instagram" width="30" height="30">
                                     </a>
                                     <a href="#" class="social-link">
                                         <img src="images/facebook.jpg" alt="Facebook" width="30" height="30">
