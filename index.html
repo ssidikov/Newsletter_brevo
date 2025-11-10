@@ -249,11 +249,12 @@
         }
 
         .cta-link {
-            font-size: 18px;
+            font-size: 16px;
             color: #000;
             font-weight: 700;
             text-decoration: none;
             display: block;
+            text-transform: uppercase;
         }
 
         .cta-icon {
@@ -271,12 +272,13 @@
 
         .footer-text {
             font-size: 12px;
-            font-weight: 600;
+            font-weight: 700;
             text-align: left;
         }
 
         .footer-credit {
             margin: 5px 0;
+            font-size: 12px;
         }
 
         .section-title {
@@ -284,6 +286,7 @@
             font-weight: 700;
             text-align: center;
             margin: 29px 0 58px 0;
+            line-height: 120%;
         }
 
         .news-items-bg {
@@ -342,13 +345,13 @@
 
         .cta-text-cell {
             background: #faf8fd;
-            padding: 12px;
+            padding: 17px 6px 17px 20px;
             vertical-align: middle;
         }
 
         .cta-icon-cell {
             background: #faf8fd;
-            padding: 8px 10px;
+            padding: 8px;
             vertical-align: middle;
         }
 
@@ -376,8 +379,8 @@
         }
 
         .icon-circle {
-            width: 40px;
-            height: 40px;
+            width: 35px;
+            height: 35px;
             background-color: #612ffe;
             border-radius: 50%;
             display: inline-block;
@@ -386,26 +389,27 @@
         /* Article section */
         .article-section {
             background-color: #ECFFBB;
-            padding: 20px;
+            padding: 24px 20px;
         }
 
         .article-image {
             width: 100%;
-            height: 270px;
+            height: 259px;
             object-fit: cover;
             border-radius: 20px;
             margin: 20px 0;
+            /* setting for change image position */
+            object-position: 0px -210px;
         }
 
         .article-text {
             font-size: 13px;
-            font-weight: 600;
-            line-height: 1.25;
-            color: #4e4e4e;
+            font-weight: 400;
+            line-height: 120%;
             text-align: left;
             column-count: 2;
-            column-gap: 15px;
-            padding: 0 10px;
+            column-gap: 20px;
+            padding: 16px 0;
         }
 
         /* Big title section */
@@ -431,14 +435,14 @@
             width: 100%;
             height: 536px;
             object-fit: cover;
-            border-radius: 20px;
+            border-radius: 32px;
         }
 
         /* Footer */
         .footer-logo {
             background-color: #ECFFBB;
             text-align: center;
-            padding: 155px 20px 40px;
+            padding: 150px 0px 58px;
         }
 
         .footer-logo-text {
@@ -456,7 +460,7 @@
             position: relative;
             left: 50%;
             transform: translateX(-32%);
-            width: 185%;
+            width: 173%;
             max-width: none;
             height: auto;
             margin: 0;
@@ -474,8 +478,8 @@
 
         /* Thin separator above footer content */
         .footer-sep {
-            height: 2px;
-            background: #717171;
+            height: 1px;
+            background: #000;
             width: 100%;
             display: block;
             margin: 0 0 12px 0;
@@ -598,7 +602,7 @@
                                         </clipPath>
                                     </defs>
                                     <!-- image fills the full SVG area and is clipped -->
-                                    <image href="images/picture-1.jpg" x="0" y="0" width="100%" height="100%"
+                                    <image href="images/picture-1.png" x="0" y="0" width="100%" height="100%"
                                         preserveAspectRatio="xMidYMid slice" clip-path="url(#editoclip)" />
                                 </svg>
                             </div>
@@ -651,7 +655,7 @@
                                     class="news-items-bg">
                                     <tr>
                                         <td width="48%" valign="top" class="news-item">
-                                            <img src="images/burger.jpg" alt="Burger" class="news-image" />
+                                            <img src="images/burger.png" alt="Burger" class="news-image" />
                                             <p class="news-text">
                                                 Lorem ipsum ullamcorper fringilla augue turpis quam egestas enim mauris
                                                 leo habitasse dignissim tincidunt tellus quis consectetur fames erat
@@ -663,7 +667,7 @@
                                         </td>
                                         <td width="4%"></td>
                                         <td width="48%" valign="top" class="news-item news-item--pad-left">
-                                            <img src="images/picture-2.jpg" alt="Portrait" class="news-image" />
+                                            <img src="images/picture-2.png" alt="Portrait" class="news-image" />
                                             <p class="news-text">
                                                 Lorem ipsum ullamcorper fringilla augue turpis quam egestas enim mauris
                                                 leo habitasse dignissim tincidunt tellus quis consectetur fames erat
@@ -717,7 +721,7 @@
                     <tr>
                         <td class="article-section">
                             <h2 class="section-title">Quoi d'autres ?</h2>
-                            <img src="images/picture-2.jpg" alt="Article" class="article-image" />
+                            <img src="images/picture-2.png" alt="Article" class="article-image" />
                             <div class="article-text">
                                 <p>
                                     Hipster ipsum wayfarers toast williamsburg neutra hashtag woke disrupt level
@@ -753,7 +757,7 @@
                     <!-- Final Article -->
                     <tr>
                         <td class="final-article">
-                            <img src="images/picture-2.jpg" alt="Final Article" class="final-image" />
+                            <img src="images/picture-2.png" alt="Final Article" class="final-image" />
                         </td>
                     </tr>
                     <!-- Footer Logo -->
@@ -779,10 +783,10 @@
                                 <p class="footer-credit">Crédits photos : ©</p>
                                 <div class="social-icons">
                                     <a href="#" class="social-link">
-                                        <img src="images/instagram.jpg" alt="Instagram" width="30" height="30" />
+                                        <img src="images/instagram.png" alt="Instagram" width="32" height="32" />
                                     </a>
                                     <a href="#" class="social-link">
-                                        <img src="images/facebook.jpg" alt="Facebook" width="30" height="30" />
+                                        <img src="images/facebook.png" alt="Facebook" width="32" height="32" />
                                     </a>
                                 </div>
                             </div>
