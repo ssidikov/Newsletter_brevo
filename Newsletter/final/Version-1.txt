@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="fr">
+<head>
+  <title>Com'art Newsletter - Novembre 2025</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--[if mso]>
+      <xml>
+         <o:OfficeDocumentSettings>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            <o:AllowPNG />
+         </o:OfficeDocumentSettings>
+      </xml>
+      <![endif]-->
+  <!--[if !mso]><!-->
+  <link href="https://cdn.jsdelivr.net/npm/fonts-archive-futura-std/FuturaStd.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <!--<![endif]-->
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    }
+
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: inherit !important;
+    }
+
+    #MessageViewBody a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    p {
+      line-height: inherit;
+      font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: 'Futura Std', Arial, sans-serif;
+    }
+
+    .desktop_hide,
+    .desktop_hide table {
+      mso-hide: all;
+      display: none;
+      max-height: 0px;
+      overflow: hidden;
+    }
+
+    .image_block img+div {
+      display: none;
+    }
+
+    @media (max-width: 480px) {
+      .footer-mobile-padding {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+      }
+
+      .mobile_hide {
+        display: none;
+      }
+
+      .row-content {
+        width: 100% !important;
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+      }
+
+      .stack .column {
+        width: 100%;
+        display: block;
+      }
+
+      .mobile_hide {
+        min-height: 0;
+        max-height: 0;
+        max-width: 0;
+        overflow: hidden;
+        font-size: 0px;
+      }
+
+      .desktop_hide,
+      .desktop_hide table {
+        display: table !important;
+        max-height: none !important;
+      }
+
+      /* Responsive adjustments from original */
+      .article-text {
+        column-count: 1 !important;
+      }
+
+      h1,
+      h2,
+      .edito-title {
+        font-size: 28px !important;
+      }
+
+      .section-title {
+        font-size: 24px !important;
+      }
+    }
+  </style>
+</head>
+<body class="body" style="
+      background-color: transparent;
+      margin: 0;
+      padding: 0;
+      -webkit-text-size-adjust: none;
+      text-size-adjust: none;
+      ">
+  <table class="nl-container" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation"
+    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: transparent">
+    <tbody>
+      <tr>
+        <td>
+          <!-- HEADER ROW -->
+          <table class="row row-1" align="center" width="100%" border="0" cellpadding="0" cellspacing="0"
+            role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+            <tbody>
+              <tr>
+                <td>
+                  <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0"
+                    role="presentation" style="
+                                 mso-table-lspace: 0pt;
+                                 mso-table-rspace: 0pt;
+                                 background-color: #ecffbb;
+                                 color: #000000;
+                                 width: 600px;
+                                 margin: 0 auto;
+                                 padding: 0 32px;
+                                 " width="600">
+                    <tbody>
+                      <tr>
+                        <td class="column column-1" width="100%" style="
+                                          mso-table-lspace: 0pt;
+                                          mso-table-rspace: 0pt;
+                                          font-weight: 400;
+                                          text-align: left;
+                                          padding-top: 37px;
+                                          padding-left: 32px;
+                                          padding-right: 32px;
+                                          padding-bottom: 30px;
+                                          vertical-align: top;
+                                          ">
+                          <!-- Header top: Date and Links -->
+                          <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                            style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+                            <tr>
+                              <td width="50%" style="padding-bottom: 15px">
+                                <div style="
+                                                      font-family: 'Roboto', Arial, sans-serif;
+                                                      font-size: 12px;
+                                                      font-weight: 500;
+                                                      border: 1px solid #000;
+                                                      border-radius: 22px;
+                                                      padding: 6px 16px;
+                                                      display: inline-block;
+                                                      ">
+                                  <span class="tinyMce-placeholder">NOVEMBRE
+                                    2025</span>
+                                </div>
+                              </td>
+                              <td width="50%" style="text-align: right; padding-bottom: 15px">
+                                <div style="
+                                                      font-family: 'Roboto', Arial, sans-serif;
+                                                      font-size: 12px;
+                                                      font-weight: 500;
+                                                      ">
+                                  <a href="#" style="text-decoration: underline;color: #333;margin-right: 4px;">
+                                    VISUALISER SUR LE WEB
+                                  </a>
+                                  |
+                                  <a href="#" style="text-decoration: underline; color: #333">
+                                    S'ABONNER
+                                  </a>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                          <!-- Logo with Badge -->
+                          <table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0"
+                            role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+                            <tr>
+                              <td class="pad" style="width: 100%; padding-top: 44px">
+                                <div class="alignment" align="center">
+                                  <img
+                                    src="https://img.mailinblue.com/10162090/images/content_library/original/69124c5fab9a673adbebd93e.png"
+                                    alt="com'art Newsletter" style="
+                                                         display: block;
+                                                         margin: 0 auto;
+                                                         height: auto;
+                                                         max-width: 100%;
+                                                         width: auto;
+                                                         " />
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- EDITO SECTION -->
+          <table class="row row-2" align="center" width="100%" border="0" cellpadding="0" cellspacing="0"
+            role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+            <tbody>
+              <tr>
+                <td>
+                  <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0"
+                    role="presentation" style="
+                                 mso-table-lspace: 0pt;
+                                 mso-table-rspace: 0pt;
+                                 background-color: #ecffbb;
+                                 color: #000000;
+                                 width: 600px;
+                                 margin: 0 auto;
+                                 " width="600">
+                    <tbody>
+                      <tr>
+                        <td class="column column-1" width="100%" style="
+                                          mso-table-lspace: 0pt;
+                                          mso-table-rspace: 0pt;
+                                          font-weight: 400;
+                                          text-align: left;
+                                          vertical-align: top;
+                                          padding: 24px 32px;
+                                          ">
+                          <!-- Edito Image with Vector Background -->
+                          <table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0"
+                            role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+                            <tr>
+                              <td class="pad" style="width: 100%; padding: 0 30px 60px 30px">
+                                <div class="alignment" align="center">
+                                  <div style="max-width: 540px; margin: 0 auto; position: relative;">
+                                    <!-- SVG with mask overlay - positioned absolutely -->
+                                    <svg
+                                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 2;"
+                                      viewBox="0 0 600 520" xmlns="http://www.w3.org/2000/svg"
+                                      preserveAspectRatio="xMidYMid slice" role="img" aria-label="Circle Mask">
+                                      <defs>
+                                        <!-- Inverted mask: white = show overlay, black = show image -->
+                                        <mask id="hero-mask">
+                                          <!-- White background = show green overlay everywhere -->
+                                          <rect x="0" y="0" width="600" height="620" fill="white">
+                                          </rect>
+                                          <!-- Black rounded shapes = hide overlay, show image through these areas -->
+                                          <!-- Top pill: centered, width ~160px, height ~128px -->
+                                          <rect x="40" y="16" width="420" height="170" rx="90" ry="90" fill="black">
+                                          </rect>
+                                          <!-- Middle pill: offset right, width ~160px, height ~128px -->
+                                          <rect x="140" y="183" width="420" height="170" rx="90" ry="90" fill="black">
+                                          </rect>
+                                          <!-- Bottom pill: centered, width ~160px, height ~128px -->
+                                          <rect x="40" y="348" width="420" height="170" rx="90" ry="90" fill="black">
+                                          </rect>
+                                        </mask>
+                                      </defs>
+                                      <!-- Green overlay with inverted mask - shows everywhere except 3 circles -->
+                                      <rect x="0" y="0" width="600" height="520" fill="#ECFFBB"
+                                        mask="url(#hero-mask)" />
+                                    </svg>
+
+                                    <!-- Editable hero image - below SVG mask -->
+                                    <img
+                                      src="https://img.mailinblue.com/10162090/images/content_library/original/6911eeebffddcb3dad0cc0b4.jpg"
+                                      alt="Hero Image" title="Hero Image" class="tinyMce-placeholder"
+                                      style="display: block;width: 100%;height: auto;position: relative;z-index: 1; transform-origin: center;max-height: 472px;object-fit: cover;">
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                          <!-- Edito Title with lines -->
+                          <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                            style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+                            <tr>
+                              <td width="34%" valign="middle">
+                                <div style="
+                                                      height: 1px;
+                                                      background: #000;
+                                                      width: 90%;
+                                                      margin-left: 10%;
+                                                      "></div>
+                              </td>
+                              <td width="32%" align="center" valign="middle">
+                                <table class="heading_block block-2" width="100%" border="0" cellpadding="0"
+                                  cellspacing="0" role="presentation"
+                                  style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+                                  <tr>
+                                    <td class="pad" style="text-align: center; width: 100%">
+                                      <h2 style="
+                                                               margin: 0;
+                                                               color: #000;
+                                                               direction: ltr;
+                                                               font-family: 'Futura Std', Arial, sans-serif;
+                                                               font-size: 48px;
+                                                               font-weight: 700;
+                                                               letter-spacing: -3px;
+                                                               line-height: 1.2;
+                                                               text-align: center;
+                                                               transform: rotate(-5deg);
+                                                               ">
+                                        <span class="tinyMce-placeholder" style="
+                                                                      font-size: 48px; ">Edito</span>
+                                      </h2>
+                                      <div style="text-align: center;">
+                                        <img
+                                          src="https://img.mailinblue.com/10162090/images/content_library/original/6911eeb6edefe661f1f8411d.png"
+                                          alt="Content Library Image"
+                                          style="display: inline-block;
+                                                                                                                               width: 128px;
+                                                                                                                               height: auto;
+                                                                                                                               margin: -3px auto 0;">
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td width="34%" valign="middle">
+                                <div style="
+                                                      height: 1px;
+                                                      background: #000;
+                                                      width: 90%;
+                                                      float: right;
+                                                      "></div>
+                              </td>
+                            </tr>
+                          </table>
+                          <!-- Edito Text -->
+                          <table class="paragraph_block block-3" width="100%" border="0" cellpadding="0" cellspacing="0"
+                            role="presentation" style="
+                                             mso-table-lspace: 0pt;
+                                             mso-table-rspace: 0pt;
+                                             word-break: break-word;
+                                             ">
+                            <tr>
+                              <td class="pad" style="padding-top: 34px">
+                                <div style="
+                                                      color: #000;
+                                                      font-family: 'Futura Std', Arial, sans-serif;
+                                                      font-size: 16px;
+                                                      font-weight: 400;
+                                                      line-height: 20px;
+                                                      text-align: left;
+                                                      ">
+                                  <p style="margin: 0;font-family: 'Roboto', Arial, sans-serif; font-size: 13px;">
+                                    <span class="tinyMce-placeholder">
+                                      Lorem ipsum amet ac velit viverra facilisi
+                                      malesuada
+                                      tincidunt nascetur consequat vulputate at
+                                      fermentum urna
+                                      sollicitudin et elementum amet sapien
+                                      ultrices vestibulum
+                                      lorem lacus diam arcu iaculis duis cras
+                                      viverra ullamcorper
+                                      turpis faucibus mattis viverra eu massa amet
+                                      pellentesque
+                                      suspendisse et eget odio semper posuere
+                                      convallis urna
+                                      tortor mauris dictumst eu morbi at sed
+                                      vestibulum arcu augue
+                                      odio risus nibh dictumamet fusce porttitor
+                                      vitae rutrum id
+                                      dolor bibendum nisi volutpat tortor massa
+                                      sed et cras eget
+                                      amet nullam risus tincidunt nisl tortor
+                                      lectus in sit
+                                      facilisis tempus urna quisque enim dolor
+                                      mauris enim leo
+                                      quis varius risus lorem id vitae quam sed
+                                      nisl duis nam nibh
+                                      euismod id aliquam eget congue a et viverra
+                                      consectetur a ut
+                                      pretium sodales quis amet sit dolor congue
+                                      sit mauris
+                                      hendrerit ante consectetur mauris est nullam
+                                      non vitae
+                                      euismod elementum feugiat commodo dolor
+                                      posuere odio
+                                      adipiscing montes et ac et suspendisse
+                                      dictum dolor.
+                                    </span>
+                                  </p>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- NEWS SECTION TITLE -->
+          <table class="row row-3" align="center" width="100%" border="0" cellpadding="0" cellspacing="0"
+            role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+            <tbody>
+              <tr>
+                <td>
+                  <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0"
+                    role="presentation" style="
+                                 mso-table-lspace: 0pt;
+                                 mso-table-rspace: 0pt;
+                                 background-color: #ecffbb;
+                                 color: #000000;
+                                 width: 600px;
+                                 margin: 0 auto;
+                                 " width="600">
+                    <tbody>
+                      <tr>
+                        <td class="column column-1" width="100%" style="
+                                          mso-table-lspace: 0pt;
+                                          mso-table-rspace: 0pt;
+                                          font-weight: 400;
+                                          text-align: left;
+                                          padding: 0 32px;
+                                          vertical-align: top;
+                                          ">
+                          <table class="heading_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0"
+                            role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+                            <tr>
+                              <td class="pad" style="text-align: center; width: 100%; padding: 29px 0 58px 0">
+                                <h2 style="
+                                                      margin: 0;
+                                                      color: #000;
+                                                      font-family: 'Futura Std', Arial, sans-serif;
+                                                      font-size: 48px;
+                                                      font-weight: 700;
+                                                      letter-spacing: -1.44px;
+                                                      line-height: 1.2;
+                                                      text-align: center;
+                                                      ">
+                                  <span class="tinyMce-placeholder">Les
+                                    nouveautés</span>
+                                </h2>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- NEWS SECTION WITH PURPLE BACKGROUND -->
+          <table class="row row-4" align="center" width="100%" border="0" cellpadding="0" cellspacing="0"
+            role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+            <tbody>
+              <tr>
+                <td>
+                  <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0"
+                    role="presentation" style="
+                                 mso-table-lspace: 0pt;
+                                 mso-table-rspace: 0pt;
+                                 background-color: #ECFFBB;
+                                 background-image: url('https://img.mailinblue.com/10162090/images/content_library/original/69124f81394699ea4fd4acb3.png');
+                                 background-repeat: no-repeat;
+                                 background-size: cover;
+                                 background-position: center;
+                                 color: #000000;
+                                 width: 600px;
+                                 margin: 0 auto;
+                                 " width="600">
+                    <tbody>
+                      <tr>
+                        <td class="column column-1" width="100%" style="
+                                                                                    mso-table-lspace: 0pt;
+                                                                                    mso-table-rspace: 0pt;
+                                                                                    font-weight: 400;
+                                                                                    text-align: left;
+                                                                                    padding: 80px 32px 100px 32px;
+                                                                                    vertical-align: top;
+                                                                                    " valign="top">
+                          <!--[if mso]>
+                                                                                                        <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:607px;">
+                                                                                                            <v:fill type="frame" src="https://img.mailinblue.com/10162090/images/content_library/original/69124f81394699ea4fd4acb3.png" color="#5E2BFF" />
+                                                                                                            <v:textbox inset="80px,32px,100px,32px">
+                                                                                                        <![endif]-->
+                          <!-- Purple content area with news items -->
+                          <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="
+                                                      mso-table-lspace: 0pt;
+                                                      mso-table-rspace: 0pt;
+                                                      ">
+                            <tr>
+                              <!-- News Item 1 -->
+                              <td width="48%" valign="top" style="padding-bottom: 20px">
+                                <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                                  <tr>
+                                    <td>
+                                      <img
+                                        src="https://img.mailinblue.com/10162090/images/content_library/original/6911eeb760d01ebebee78862.png"
+                                        alt="Burger" style="
+                                                                        display: block;
+                                                                        width: 100%;
+                                                                        height: 224px;
+                                                                        border-radius: 22px;
+                                                                        margin-bottom: 40px;
+                                                                        object-fit: cover;
+                                                                        " />
+                                      <div style="
+                                                                        color: #fff;
+                                                                        font-family: 'Roboto', Arial, sans-serif;
+                                                                        font-size: 13px;
+                                                                        line-height: 1.2;
+                                                                        text-align: left;
+                                                                        margin-bottom: 32px;
+                                                                        ">
+                                        <p
+                                          style="margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 13px;">
+                                          <span>Lorem ipsum
+                                            ullamcorper
+                                            fringilla augue
+                                            turpis quam egestas
+                                            enim mauris leo
+                                            habitasse dignissim
+                                            tincidunt tellus
+                                            quis
+                                            consectetur fames
+                                            erat risus eu elit
+                                            rutrum egestas sit
+                                            dolor et velit ac
+                                            proin in lectus
+                                            tristique
+                                            pellentesque luctus
+                                            tristique consequat
+                                            ut quis cursus
+                                            mauris neque
+                                            pulvinar quam mattis
+                                            id sit aliquet porta
+                                            nam.</span>
+                                        </p>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td width="4%"></td>
+                              <!-- News Item 2 -->
+                              <td width="48%" valign="top" style="padding-bottom: 20px">
+                                <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                                  <tr>
+                                    <td>
+                                      <img
+                                        src="https://img.mailinblue.com/10162090/images/content_library/original/6911eeb7ffddcb3dad0cc095.png"
+                                        alt="Portrait" style="
+                                                                        display: block;
+                                                                        width: 100%;
+                                                                        height: 224px;
+                                                                        border-radius: 22px;
+                                                                        margin-bottom: 40px;
+                                                                        object-fit: cover;
+                                                                        " />
+                                      <div style="
+                                                                        color: #fff;
+                                                                        font-family: 'Roboto', Arial, sans-serif;
+                                                                        font-size: 13px;
+                                                                        line-height: 1.2;
+                                                                        text-align: left;
+                                                                        margin-bottom: 32px;
+                                                                        ">
+                                        <p
+                                          style="margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 13px;">
+                                          <span class="tinyMce-placeholder">
+                                            Lorem ipsum
+                                            ullamcorper
+                                            fringilla augue
+                                            turpis
+                                            quam egestas enim
+                                            mauris leo habitasse
+                                            dignissim
+                                            tincidunt tellus
+                                            quis consectetur
+                                            fames erat
+                                            risus eu elit rutrum
+                                            egestas sit dolor et
+                                            velit
+                                            ac proin in lectus
+                                            tristique
+                                            pellentesque luctus
+                                            tristique consequat
+                                            ut quis cursus
+                                            mauris neque
+                                            pulvinar quam mattis
+                                            id sit aliquet porta
+                                            nam.
+                                          </span>
+                                        </p>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                          <!--[if mso]>
+                                                    </v:textbox>
+                                                    </v:rect>
+                                                    <![endif]-->
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- CTA BUTTON SECTION -->
+          <table class="row row-4b" align="center" width="100%" border="0" cellpadding="0" cellspacing="0"
+            role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+            <tbody>
+              <tr>
+                <td>
+                  <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0"
+                    role="presentation" style="
+                                 mso-table-lspace: 0pt;
+                                 mso-table-rspace: 0pt;
+                                 background-color: #ecffbb;
+                                 color: #000000;
+                                 width: 600px;
+                                 margin: 0 auto;
+                                 " width="600">
+                    <tbody>
+                      <tr>
+                        <td class="column column-1" width="100%" style="
+                                          mso-table-lspace: 0pt;
+                                          mso-table-rspace: 0pt;
+                                          font-weight: 400;
+                                          text-align: center;
+                                          padding: 60px 32px;
+                                          vertical-align: middle;
+                                          ">
+                          <!-- CTA Button -->
+                          <table class="button_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0"
+                            role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                            <tr>
+                              <td class="pad" style="text-align: center; padding: 10px;">
+                                <div class="alignment" align="center">
+                                  <a href="#" target="_blank" style="text-decoration: none;">
+                                    <!--[if mso]>
+                                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:57px;width:350px;v-text-anchor:middle;" arcsize="52%" fillcolor="#faf8fd" stroke="t" strokecolor="#333333" strokeweight="2px">
+                                    <w:anchorlock/>
+                                    <v:textbox inset="0px,0px,0px,0px">
+                                    <center dir="false" style="color:#000000;font-family:Arial, sans-serif;font-size:16px;font-weight:700;">
+                                    <![endif]-->
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                      style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                      <tr>
+                                        <td
+                                          style="background-color: #faf8fd; border: 2px solid #333; border-radius: 30px; mso-padding-alt: 17px 25px; padding: 6px 6px 2px 20px; text-align: center; vertical-align: middle;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                            style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                            <tr>
+                                              <td style="padding-right: 10px; vertical-align: middle;">
+                                                <span
+                                                  style="color: #000; display: inline-block; font-family: 'Futura Std', Arial, sans-serif; font-size: 16px; font-weight: 700; letter-spacing: normal; line-height: 20px; mso-line-height-rule: exactly; text-decoration: none; text-transform: uppercase; word-break: keep-all;">
+                                                  <span class="tinyMce-placeholder">VISITER
+                                                    NOTRE COMPTE
+                                                    INSTA</span>
+                                                </span>
+                                              </td>
+                                              <td style="vertical-align: middle;">
+                                                <img
+                                                  src="https://img.mailinblue.com/10162090/images/content_library/original/6911f09dedefe661f1f84206.png"
+                                                  alt="" width="37" height="37"
+                                                  style="background-color: #5E2BFF; border-radius: 50%; display: inline-block; height: 37px; width: 37px;" />
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                    <!--[if mso]>
+                                    </center>
+                                    </v:textbox>
+                                    </v:roundrect>
+                                    <![endif]-->
+                                  </a>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- ICONS SECTION -->
+          <table class="row row-5" align="center" width="100%" border="0" cellpadding="0" cellspacing="0"
+            role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+            <tbody>
+              <tr>
+                <td>
+                  <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0"
+                    role="presentation" style="
+                                 mso-table-lspace: 0pt;
+                                 mso-table-rspace: 0pt;
+                                 background-color: #ecffbb;
+                                 color: #000000;
+                                 width: 600px;
+                                 margin: 0 auto;
+                                 " width="600">
+                    <tbody>
+                      <tr>
+                        <td class="column column-1" width="100%" style="
+                                          mso-table-lspace: 0pt;
+                                          mso-table-rspace: 0pt;
+                                          font-weight: 400;
+                                          text-align: center;
+                                          padding: 20px 32px;
+                                          vertical-align: top;
+                                          ">
+                          <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                            <tr>
+                              <td align="center" style="
+                                                   background-color: #ECFFBB;
+                                                   text-align: center;
+                                                   ">
+                                <img
+                                  src="https://img.mailinblue.com/10162090/images/content_library/original/6912409360d01ebebee7a1d8.png"
+                                  alt="Circles" style="
+                                                         display: block;
+                                                         margin: 0 auto;
+                                                         height: auto;
+                                                         max-width: 100%;
+                                                         " />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- ARTICLE SECTION -->
+          <table class="row row-6" align="center" width="100%" border="0" cellpadding="0" cellspacing="0"
+            role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+            <tbody>
+              <tr>
+                <td>
+                  <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0"
+                    role="presentation" style="
+                                 mso-table-lspace: 0pt;
+                                 mso-table-rspace: 0pt;
+                                 background-color: #ecffbb;
+                                 color: #000000;
+                                 width: 600px;
+                                 margin: 0 auto;
+                                 " width="600">
+                    <tbody>
+                      <tr>
+                        <td class="column column-1" width="100%" style="
+                                          mso-table-lspace: 0pt;
+                                          mso-table-rspace: 0pt;
+                                          font-weight: 400;
+                                          text-align: left;
+                                          padding: 24px 32px;
+                                          vertical-align: top;
+                                          ">
+                          <!-- Article Title -->
+                          <table class="heading_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0"
+                            role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+                            <tr>
+                              <td class="pad" style="text-align: center; width: 100%">
+                                <h2 style="     font-family: 'Futura Std', Arial, Helvetica, sans-serif;
+                                                      font-size: 48px;
+                                                      letter-spacing: -1.44px;
+                                                      font-weight: 700;
+                                                      text-align: center;
+                                                      margin: 29px 0 38px 0;
+                                                      line-height: 120%;
+                                                      ">
+                                  <span class="tinyMce-placeholder">Quoi d'autres
+                                    ?</span>
+                                </h2>
+                              </td>
+                            </tr>
+                          </table>
+                          <!-- Article Image -->
+                          <table class="image_block block-2" width="100%" border="0" cellpadding="0" cellspacing="0"
+                            role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+                            <tr>
+                              <td class="pad" style="width: 100%">
+                                <div class="alignment" align="center">
+                                  <img
+                                    src="https://img.mailinblue.com/10162090/images/content_library/original/6911eeb7ffddcb3dad0cc095.png"
+                                    alt="Article" style="
+                                                         display: block;
+                                                         width: 100%;
+                                                         height: 259px;
+                                                         border-radius: 20px;
+                                                         margin: 20px 0;
+                                                         object-fit: cover;
+                                                         object-position: 0px -210px;
+                                                         " />
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                          <!-- Article Text (2 columns on desktop) -->
+                          <table class="paragraph_block block-3" width="100%" border="0" cellpadding="0" cellspacing="0"
+                            role="presentation" style="
+                                             mso-table-lspace: 0pt;
+                                             mso-table-rspace: 0pt;
+                                             word-break: break-word;
+                                             ">
+                            <tr>
+                              <td class="pad" style="padding: 16px 0">
+                                <div style="
+                                                      font-family: 'Roboto', Arial, sans-serif;
+                                                      color: #000;
+                                                      font-size: 13px;
+                                                      font-weight: 400;
+                                                      line-height: 1.2;
+                                                      text-align: left;
+                                                      column-count: 2;
+                                                      column-gap: 20px;
+                                                      ">
+                                  <p style="margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 13px;">
+                                    <span class="tinyMce-placeholder">
+                                      Hipster ipsum wayfarers toast williamsburg
+                                      neutra hashtag
+                                      woke disrupt level franzen diy tote ascot
+                                      lumbersexual pok
+                                      direct praxis lomo plant poke tbh organic
+                                      baby cornhole
+                                      cleanse shorts bottle party leggings selvage
+                                      pin 90's
+                                      vaporware pork fixie occupy wolf dollar
+                                      mlkshk trust next
+                                      truffaut kitsch hot mumblecore cliche
+                                      sustainable sold blog
+                                      bicycle chambray messenger it ethical hella
+                                      crucifix fashion
+                                      90's af occupy brooklyn tattooed ascot umami
+                                      bottle beer
+                                      iceland v forage mood cray trade master
+                                      franzen yes marfa
+                                      irony ugh vhs truck unicorn pack synth tonx
+                                      cornhole
+                                      single-origin rights succulents gochujang
+                                      craft subway
+                                      mukbang axe tumeric vinegar tacos portland
+                                      kombucha
+                                    </span>
+                                  </p>
+                                  <p style="margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 13px;">
+                                    <span class="tinyMce-placeholder">
+                                      Crypto ipsum kava stacks secret holo tezos
+                                      terra digibyte
+                                      siacoin gala polygon loopring chiliz celsius
+                                      dai dash elrond
+                                      crypto livepeer velas chiliz audius arweave
+                                      chainlink golem
+                                      tezos THETA stacks ox uniswap decentraland
+                                      cosmos amp
+                                      arweave PancakeSwap celsius telcoin nexo
+                                      uniswap kava
+                                      binance EOS waves kusama kava solana monero
+                                      XRP neo revain
+                                      audius telcoin horizen audius neo quant
+                                      audius serum cardano
+                                      quant harmony avalanche XRP maker crypto
+                                      flow ethereum
+                                      shiba-inu tezos siacoin dai uniswap fantom
+                                      dash shiba-inu
+                                      aave celsius terra terra zcash EOS enjin
+                                      litecoin ren
+                                      decentraland cosmos shiba-inu WAX kava
+                                      fantom horizen flow
+                                      maker THETA USD terra quant celsius velas.
+                                    </span>
+                                  </p>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- BIG TITLE SECTION -->
+          <table class="row row-7" align="center" width="100%" border="0" cellpadding="0" cellspacing="0"
+            role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+            <tbody>
+              <tr>
+                <td>
+                  <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0"
+                    role="presentation" style="
+                                 mso-table-lspace: 0pt;
+                                 mso-table-rspace: 0pt;
+                                 background-color: #ecffbb;
+                                 color: #000000;
+                                 width: 600px;
+                                 margin: 0 auto;
+                                 " width="600">
+                    <tbody>
+                      <tr>
+                        <td class="column column-1" width="100%" style="
+                                          mso-table-lspace: 0pt;
+                                          mso-table-rspace: 0pt;
+                                          font-weight: 400;
+                                          text-align: left;
+                                          padding: 10px 32px 0;
+                                          vertical-align: top;
+                                          ">
+                          <table class="heading_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0"
+                            role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+                            <tr>
+                              <td class="pad" style="text-align: center; width: 100%; padding: 39px 0 58px 0">
+                                <h2 style="
+                                                      margin: 0;
+                                                      color: #000;
+                                                      font-family: 'Futura Std', Arial, sans-serif;
+                                                      font-size: 48px;
+                                                      letter-spacing: -1.44px;
+                                                      font-weight: 700;
+                                                      line-height: 1.2;
+                                                      text-align: center;
+                                                      ">
+                                  <span class="tinyMce-placeholder">Un gros
+                                    titre</span>
+                                </h2>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- FINAL ARTICLE -->
+          <table class="row row-8" align="center" width="100%" border="0" cellpadding="0" cellspacing="0"
+            role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+            <tbody>
+              <tr>
+                <td>
+                  <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0"
+                    role="presentation" style="
+                                 mso-table-lspace: 0pt;
+                                 mso-table-rspace: 0pt;
+                                 background-color: #ecffbb;
+                                 color: #000000;
+                                 width: 600px;
+                                 margin: 0 auto;
+                                 " width="600">
+                    <tbody>
+                      <tr>
+                        <td class="column column-1" width="100%" style="
+                                          mso-table-lspace: 0pt;
+                                          mso-table-rspace: 0pt;
+                                          font-weight: 400;
+                                          text-align: left;
+                                          padding: 0 32px;
+                                          vertical-align: top;
+                                          ">
+                          <table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0"
+                            role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+                            <tr>
+                              <td class="pad" style="width: 100%">
+                                <div class="alignment" align="center">
+                                  <img
+                                    src="https://img.mailinblue.com/10162090/images/content_library/original/6911eeb7ffddcb3dad0cc095.png"
+                                    alt="Final Article" style="
+                                                         display: block;
+                                                         width: 100%;
+                                                         height: 536px;
+                                                         border-radius: 32px;
+                                                         object-fit: cover;
+                                                         " />
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- FOOTER LOGO -->
+          <table class="row row-9" align="center" width="100%" border="0" cellpadding="0" cellspacing="0"
+            role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+            <tbody>
+              <tr>
+                <td>
+                  <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0"
+                    role="presentation" style="
+                                 mso-table-lspace: 0pt;
+                                 mso-table-rspace: 0pt;
+                                 background-color: #ecffbb;
+                                 color: #000000;
+                                 overflow: hidden;
+                                 position: relative;
+                                 width: 600px;
+                                 margin: 0 auto;
+                                 " width="600">
+                    <tbody>
+                      <tr>
+                        <td class="column column-1" width="100%" style="
+                            mso-table-lspace: 0pt;
+                            mso-table-rspace: 0pt;
+                            font-weight: 400;
+                            text-align: center;
+                            vertical-align: top;
+                            padding: 150px 0 58px;
+                            ">
+                          <table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0"
+                            role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+                            <tr>
+                              <td class="pad" style="width: 100%">
+                                <div class="alignment" align="center">
+                                  <img
+                                    src="https://img.mailinblue.com/10162090/images/content_library/original/6911eeb6394699ea4fd490a3.png"
+                                    alt="com'art" style="
+                                                         display: block;
+                                                         position: relative;
+                                                         left: 50%;
+                                                         transform: translateX(-32%);
+                                                         width: 174%;
+                                                         max-width: none;
+                                                         height: auto;
+                                                         margin: 0;
+                                                         " />
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- FOOTER -->
+          <table class="row row-10" align="center" width="100%" border="0" cellpadding="0" cellspacing="0"
+            role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+            <tbody>
+              <tr>
+                <td>
+                  <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0"
+                    role="presentation" style="
+                                 mso-table-lspace: 0pt;
+                                 mso-table-rspace: 0pt;
+                                 background-color: #ecffbb;
+                                 color: #000000;
+                                 overflow: hidden;
+                                 position: relative;
+                                 width: 600px;
+                                 margin: 0 auto;
+                                 " width="600">
+                    <tbody>
+                      <tr>
+                        <td class="column column-1" width="100%" style="
+                                          mso-table-lspace: 0pt;
+                                          mso-table-rspace: 0pt;
+                                          font-weight: 400;
+                                          text-align: center;
+                                          padding: 20px 32px;
+                                          vertical-align: top;
+                                          ">
+                          <!-- Footer separator -->
+                          <table class="divider_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0"
+                            role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+                            <tr>
+                              <td class="pad" style="padding-bottom: 12px">
+                                <div class="alignment" align="center">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                                    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+                                    <tr>
+                                      <td class="divider_inner" style="
+                                                               font-size: 1px;
+                                                               line-height: 1px;
+                                                               border-top: 1px solid #000;
+                                                               ">
+                                        <span style="word-break: break-word">&#8202;</span>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                          <!-- Footer text -->
+                          <table class="paragraph_block block-2" width="100%" border="0" cellpadding="0" cellspacing="0"
+                            role="presentation" style="
+                                             mso-table-lspace: 0pt;
+                                             mso-table-rspace: 0pt;
+                                             word-break: break-word;
+                                             ">
+                            <tr>
+                              <td class="pad">
+                                <div style="
+                                                      color: #000;
+                                                      font-family: 'Roboto', Arial, sans-serif;
+                                                      font-size: 12px;
+                                                      line-height: 1.2;
+                                                      text-align: left;
+                                                      ">
+                                  <p class="footer-mobile-padding"
+                                    style="margin: 0; font-weight: 400; font-family: 'Roboto', Arial, sans-serif; font-size: 12px !important;">
+                                    <span class="tinyMce-placeholder"><b>
+                                        Inscrivez-vous à notre</b>
+                                      <a href="#" style="
+                                                            color: #111;
+                                                            font-weight: 700;
+                                                            text-decoration: underline;
+                                                            ">
+                                        <b>newsletter ici</b>
+                                      </a>
+                                      . Vous pouvez vous
+                                      <a href="#" style="
+                                                            color: #111;
+                                                            font-weight: 700;
+                                                            text-decoration: underline;
+                                                            ">
+                                        <b>désabonner ici</b>
+                                      </a>
+                                      . Cette newsletter est préparée par....
+                                    </span>
+                                  </p>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                          <!-- Footer bottom: Credits and Social Icons -->
+                          <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="
+                                             mso-table-lspace: 0pt;
+                                             mso-table-rspace: 0pt;
+                                             margin-top: 10px;
+                                             ">
+                            <tr>
+                              <td width="50%" style="text-align: left">
+                                <div style="
+                                                      font-family: 'Roboto', Arial, sans-serif;
+                                                      font-size: 12px;
+                                                      font-weight: 400;
+                                                      ">
+                                  <span class="tinyMce-placeholder">Crédits photos :
+                                    ©</span>
+                                </div>
+                              </td>
+                              <td width="50%" style="text-align: right">
+                                <table class="icons_block" border="0" cellpadding="0" cellspacing="0"
+                                  role="presentation" style="
+                                                      mso-table-lspace: 0pt;
+                                                      mso-table-rspace: 0pt;
+                                                      display: inline-table;
+                                                      ">
+                                  <tr>
+                                    <td style="padding: 0 5px">
+                                      <a href="#" style="text-decoration: none">
+                                        <img
+                                          src="https://img.mailinblue.com/10162090/images/content_library/original/6911eeb6815afb1faab3f754.png"
+                                          alt="Instagram" width="30" height="30" style="
+                                                               display: block;
+                                                               border-radius: 50%;
+                                                               object-fit: cover;
+                                                               " />
+                                      </a>
+                                    </td>
+                                    <td style="padding: 0 5px">
+                                      <a href="#" style="text-decoration: none">
+                                        <img
+                                          src="https://img.mailinblue.com/10162090/images/content_library/original/6911eeb6ffddcb3dad0cc094.png"
+                                          alt="Facebook" width="30" height="30" style="
+                                                               display: block;
+                                                               border-radius: 50%;
+                                                               object-fit: cover;
+                                                               " />
+                                      </a>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
